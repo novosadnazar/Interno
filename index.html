@@ -8,11 +8,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/reset.css">
 <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-   <header>
-    <div class="container">
+   <header class="header">
+    <div class="container box">
     <a href="./index.html" class="header-logo"><img src="./images/header-logo.png" alt="header-logo" class="header-img"></a>
     <nav class="header-nav">
         <ul class="header-list">
@@ -42,45 +43,55 @@
             <li class="desing-item">
                 <h2 class="desing-title">Interior Design</h2>
                 <p class="desing-desc">Enhancing the interior to achieve a healthier environment for the people using right space.</p>
-                <a href="#" class="desing-link">View More</a>
-                <img src="./images/arrow.png" alt="arrow" class="desing-img">
+                <div class="design-box">
+                    <a href="#" class="design-link">View More</a>
+                    <img src="./images/arrow.png" alt="arrow" class="design-img" />
+                  </div>
             </li>
             <li class="desing-item">
                 <h2 class="desing-title">Furniture</h2>
                 <p class="desing-desc">Movable articles that are used to make a room or building suitable for living or working.</p>
-                <a href="#" class="desing-link">View More</a>
-                <img src="./images/arrow.png" alt="arrow" class="desing-img">
+                <div class="design-box">
+                    <a href="#" class="design-link">View More</a>
+                    <img src="./images/arrow.png" alt="arrow" class="design-img" />
+                  </div>
             </li>
             <li class="desing-item">
                 <h2 class="desing-title">Flooring</h2>
                 <p class="desing-desc">Thin object any finished material applied over a floor structure to provide a walking surface.</p>
-                <a href="#" class="desing-link">View More</a>
-                <img src="./images/arrow.png" alt="arrow" class="desing-img">
+                <div class="design-box">
+                    <a href="#" class="design-link">View More</a>
+                    <img src="./images/arrow.png" alt="arrow" class="design-img" />
+                  </div>
             </li>
         </ul>
     </div>
     </section>
     <!-- секція снасть -->
     <section class="tacle">
-        <div class="container">
-       <h2 class="tacle-title">We Tackle The Most Challenging Designs</h2>
-       <p class="tacle-text">The world needs innovators and problem solvers who turn challenges into greater opportunities. We have</p>
-       <p class="tacle-desc">an insatiable curiosity about transformative trends challenging the status.</p>
-       <img src="./images/kitchen.jpg" alt="kitchen">
-   <ul class="tecle-list">
-    <li class="tecle item">
-        <img src="./images/telephone.png" alt="telephone" class="tecle-img">
-    </li>
-    <li class="tecle item">
-<p class="tecle-text2">012345678</p>
-    </li>
-    <li class="tecle item">
-<p class="tecle-desc2">Call Us Anytime</p>
-    </li>
-   </ul>
-   <button type="button" class="tecle-btn">Get Free Estimate</button>
-</div>
-    </section>
+        <div class="container pro-box">
+          <div class="tacle-box">
+          <h3 class="tacle-title">We Tackle The Most Challenging Designs</h3>
+          <p class="tacle-text">
+            The world needs innovators and problem solvers who turn challenges
+            into greater opportunities. We have
+          </p>
+          <p class="tacle-desc">
+            an insatiable curiosity about transformative trends challenging the
+            status.
+          </p>
+          <div class="tacle-bax">
+            <img src="./images/tacle-phone.png" alt="phone" class="tacle-images" />
+            <div class="bax">
+              <a href="tel:012345678" class="tacle-link">012345678</a>
+              <p class="tacle-p">Call Us Anytime</p>
+            </div>
+          </div>
+          <button type="button" class="tacle-btn">Get Free Estimate</button>
+          </div>
+          <img src="./images/kitchen.jpg" alt="fons" class="tacle-img">
+        </div>
+      </section>
     <!-- секція картки -->
     <section class="card">
         <div class="container">
@@ -240,24 +251,39 @@
             <li class="footer-item"><a href="#" class="footer-link"><img src="./images/in-logo.png" alt="in-logo" class="footer-logo"></a></li>
             <li class="footer-item"><a href="#" class="footer-link"><img src="./images/instagram-logo.png" alt="instagram-logo" class="footer-logo"></a></li>
            </ul>
-           <ul class="footer-items">
-            <li class="footer-item">
-                <h2 class="footer-title">Pages</h2>
-            </li>
-            <li class="footer-item">
-                <h2 class="footer-title">Explore</h2>
-            </li>
-            <li class="footer-item">
-                <h2 class="footer-title">Contact</h2>
-            </li>
-           </ul>
-           <ul>
+         <ul class="footer-items">
             <li>
-                <h2>Pages</h2>
+                <h2 class="footer-title">Pages</h2>
+                <ul class="footer-letter">
+                    <li class="footer-item"><a href="#" class="footer-a">Style Guide</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Protected</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Licenses</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Changelog</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">404</a></li>
+                </ul>
             </li>
-            <li></li>
-            <li></li>
-           </ul>
+            <li>
+                <h2 class="footer-title">Explore</h2>
+                <ul class="footer-letter">
+                    <li class="footer-item"><a href="#" class="footer-a">About Us</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Recent Blog</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Pricing Plan</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Our Projects</a></li>
+                    <li class="footer-item"><a href="#" class="footer-a">Contact Us</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="footer-title">Contact</h2>
+                <ul class="footer-letter">
+                    <li class="footer-item"><a href="#" class="footer-a">53, East Birchwood Ave. Brooklyn, New York 11201, USA.</a></li>
+                    <li class="footer-item"><a href="mailto:contact@interno.com" class="footer-a">contact@interno.com</a></li>
+                    <li class="footer-item"><a href="tel:1234567890" class="footer-a">(123) 456 - 7890</a></li>
+                </ul>
+            </li>
+         </ul>
+         <div>
+            <p class="footer-text">Copyright &#169; Interno | Designed by <span class="footer-span">Victorflow</span> Templates - Powered by <span class="footer-span">Webflow</span></p>
+         </div>
     </div>
    </footer>
 </body>

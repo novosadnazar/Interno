@@ -40,17 +40,31 @@ img {
     margin: 0 auto;
 }
 
+.header {
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
 
 .header-list {
     display: flex;
     gap: 40px;
-margin-left: 485px;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
     width: 177px;
 height: 50px;
+align-items: center;
 
+}
+
+.header-nav {
+    margin-left: auto;
 }
 
 .header-link {
@@ -66,17 +80,28 @@ letter-spacing: 0.4px;
     color: var(--numbers-color);
 }
 
+.hero {
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(../images/hero-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 290px;
+}
+
 .hero-title{
-    color: #292F36;
+    width: 595px;
+    color: var(--accent-color);
     font-family: "DM Serif Display";
     font-size: 80px;
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.22px;
+    margin-bottom: 19px;
 }
 
 .hero-text {
-    color: #4D5053;
+    color: var(--minor-color);
     font-family: "Jost";
     font-size: 22px;
     font-weight: 400;
@@ -85,21 +110,45 @@ letter-spacing: 0.4px;
 }
 
 .hero-desc {
-    color: #4D5053;
+    color: var(--minor-color);
     font-family: "Jost";
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
+    margin-bottom: 35px;
 }
 
 .hero-btn {
-    width: 207px;
-    height: 71px;
-    fill: var(--accent-color);
-    stroke-width: 2px;
-    stroke: var(--accent-color);
+    color: var(--background-color);
+    font-family: "Jost";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.72px;
+    background-image: url(../images/hero-btn.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 22px 67px 22px 34px;
+    border-radius: 20px;
+
+}
+
+.desing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.desing-list {
+    display: flex;
+}
+
+.design-item {
+    padding-top: 75px;
+    padding-bottom: 70px;
 }
 
 .desing-title {
@@ -114,15 +163,26 @@ letter-spacing: 0.4px;
 
 .desing-desc {
     color: var(--minor-color);
-    text-align: center;
-    font-family: "Jost";
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.22px;
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+margin-top: 17px;
+margin-bottom: 68px;
+width: 317px;
+margin-right: 41px;
+margin-left: 42px;
 }
 
-.desing-link {
+.design-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.design-link {
     color: var(--minor-color);
     text-align: center;
     font-family: "Jost";
@@ -137,17 +197,28 @@ letter-spacing: 0.4px;
 height: 17px;
 }
 
+.tacle {
+    padding-bottom: 140px;
+}
+
+.pro-box {
+    display: flex;
+}
+
 .tacle-title {
+    width: 450px;
     color: var(--accent-color);
     font-family: "DM Serif Display";
     font-size: 50px;
     font-weight: 400;
     line-height: 1.3;
     letter-spacing: 0.22px;
+    margin-bottom: 42px;
 }
 
 .tacle-text {
-    color: #4D5053;
+    width: 531px;
+    color: var(--minor-color);
     font-family: "Jost";
     font-size: 22px;
     font-weight: 400;
@@ -156,24 +227,33 @@ height: 17px;
 }
 
 .tacle-desc {
+    width: 492px;
     color: var(--minor-color);
     font-family: "Jost";
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
+    margin-bottom: 40px;
 }
 
-.tecle-text2 {
+.tacle-bax {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tacle-link {
     color: var(--minor-color);
-    font-family: "Jost";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5; 
-    letter-spacing: 0.22px;
+font-family: "Jost";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
 }
 
-.tecle-desc2 {
+.tacle-p {
     color: var(--minor-color);
     font-family: "Jost";
     font-size: 22px;
@@ -183,18 +263,25 @@ height: 17px;
     letter-spacing: 0.22px;
 }
 
-.tecle-btn {
-    width: 263px;
-height: 71px;
-border-radius: 18px;
-border: 2px solid var(--accent-color);
-background: var(--accent-color);
-color: var(--background-color);
-font-family: "Jost";
+.tacle-btn {
+    color: var(--background-color);
 font-size: 18px;
 font-weight: 400;
 line-height: 1.5;
+border: 0;
+border-radius: 18px; 
+padding: 21px 67px 23px 34px;
 letter-spacing: 0.72px;
+background-image: url(../images/tacle-btn.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    margin-top: 50px;
+}
+
+.tacle-img {
+    border-radius: 0 326px 0 123px;
+    margin-left: auto;
 }
 
 .card-item {
@@ -391,5 +478,48 @@ font-family: "Jost";
 font-size: 18px;
 font-weight: 400;
 line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.footer-letter {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-title {
+color: var(--accent-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5px;
+letter-spacing: 0.22px;
+}
+
+.footer-a {
+color: var(--minor-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.footer-text {
+    color: #4D5053;
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.footer-span {
+    color: #CDA274;
+text-align: center;
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
 letter-spacing: 0.22px;
 }
