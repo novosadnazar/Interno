@@ -16,3 +16,8 @@ h1, h2, h3, p {
 img {
     display: block;
 }
+
+button {
+    border: none;
+    background: transparent;
+}
