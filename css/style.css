@@ -34,7 +34,7 @@ img {
 }
 
 .container {
-    width: 1220px;
+    width: 1240px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
@@ -479,30 +479,30 @@ margin-bottom: 71px;
     margin-left: auto;
 }
 
-.numbers {
+.figure {
     padding-top: 140px;
     padding-bottom: 140px;
     background-color: var(--site-color);
 }
 
-.numbers-list {
+.figure-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
-.numbers-item {
+.figure-item {
     width: 288px;
     height: 195px;
     border-right: 1px solid var(--numbers-color);
 }
 
-.numbers-item:last-child {
+.figure-item:last-child {
 border-right: 0;
 }
 
-.numbers-text {
+.figure-text {
     color: var(--numbers-color);
 font-family: "DM Serif Display";
 font-size: 85px;
@@ -512,13 +512,18 @@ letter-spacing: 1.7px;
 text-align: center;
 }
 
-.numbers-desc {
+.figure-desk {
     color: var(--minor-color);
 text-align: center;
 font-size: 22px;
 font-weight: 400;
 line-height: 1.5; 
 letter-spacing: 0.22px;
+}
+
+.blogs {
+    padding-top: 143px;
+    padding-bottom: 70px;
 }
 
 .blogs-title {
@@ -529,10 +534,11 @@ font-size: 48px;
 font-weight: 400;
 line-height: 1.3o;
 letter-spacing: 0.22px;
+margin-bottom: 21px;
 }
 
 .blogs-text {
-    width: 589px;
+   
     color: var(--minor-color);
     text-align: center;
     font-family: "Jost";
@@ -543,7 +549,6 @@ letter-spacing: 0.22px;
 }
 
 .blogs-desc {
-    width: 293px;
     color: var(--minor-color);
 text-align: center;
 font-family: "Jost";
@@ -553,13 +558,90 @@ line-height: 1.5;
 letter-spacing: 0.22px;
 }
 
+.letter {
+    padding-bottom: 141px;
+}
+
+.letter-list {
+    display: flex;
+    flex-wrap: wrap;
+ gap: 20px;
+ justify-content: center;
+   
+}
+
+.letter-item {
+    width: 387px;
+    height: 515px;
+border-radius: 62px;
+border: 1px solid var(--hero-color);
+background-image: url(../images/Kitchen-Design.jpg);
+background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-item:nth-child(2) {
+    background-image: url(../images/Living-Room-three.jpg);
+    background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-item:nth-child(3) {
+    background-image: url(../images/Minimalist-Interior-two.jpg);
+    background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-item:nth-child(4) {
+    background-image: url(../images/Living-Room-two.jpg);
+    background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-item:nth-child(5) {
+    background-image: url(../images/Living-Room.jpg);
+    background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-item:nth-child(6) {
+    background-image: url(../images/minimalist-Interior.jpg);
+    background-repeat: no-repeat;
+background-position: 21px 21px;
+}
+
+.letter-btn {
+    color: var(--minor-color);
+    text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.5;
+padding: 10px;
+letter-spacing: 0.22px;
+border-radius: 8px 8px 8px 0px;
+background: var(--background-color);
+margin-top: 244px;
+margin-left: 45px;
+
+}
+
+
 .letter-title {
+    width: 338px;
     color: var(--accent-color);
     font-family: "DM Serif Display";
     font-size: 25px;
     font-weight: 400;
     line-height: 1.3; 
     letter-spacing: 0.5px;
+    margin-top: 45px;
+    margin-left: 21px;
+    margin-bottom: 34px;
+}
+
+.letter-box {
+    display: flex;
+    align-items: center;
 }
 
 .letter-text {
@@ -569,10 +651,23 @@ letter-spacing: 0.22px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
+    margin-right: auto;
+    margin-left: 21px;
+}
+
+.letter-button {
+    margin-right: 22px;
+}
+
+.letter-img {
+    width: 52px;
 }
 
 .wanna {
     background-color: var(--accent-color);
+    padding-top: 100px;
+    padding-bottom: 95px;
+    border-radius: 70px;
 }
 
 .wanna-title {
@@ -593,6 +688,7 @@ letter-spacing: 0.22px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
+    margin-bottom: 31px;
 }
 
 .wanna-btn {
@@ -607,7 +703,14 @@ font-size: 18px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
+margin-right: auto;
+margin-left: 474px;
 }
+
+.footer {
+    padding-top: 80px;
+}
+
 
 .footer-letter {
     display: flex;
@@ -629,6 +732,16 @@ font-family: "Jost";
 font-size: 22px;
 font-weight: 400;
 line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.footer-desc {
+    width: 326px;
+    color: var(--minor-color);
+font-family: "Jost";
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
 letter-spacing: 0.22px;
 }
 
