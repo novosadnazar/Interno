@@ -559,31 +559,31 @@ letter-spacing: 0.22px;
     height: 515px;
 border-radius: 62px;
 border: 1px solid var(--hero-color);
-background-image: url(../images/Kitchen-Design.jpg);
+background-image: url(../images/kitchen-Design.jpg);
 background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(2) {
-    background-image: url(../images/Living-Room-three.jpg);
+    background-image: url(../images/living-Room-three.jpg);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(3) {
-    background-image: url(../images/Minimalist-Interior-two.jpg);
+    background-image: url(../images/minimalist-Interior-two.jpg);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(4) {
-    background-image: url(../images/Living-Room-two.jpg);
+    background-image: url(../images/living-Room-two.jpg);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(5) {
-    background-image: url(../images/Living-Room.jpg);
+    background-image: url(../images/living-Room.jpg);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
