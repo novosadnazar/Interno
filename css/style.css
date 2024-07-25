@@ -585,31 +585,31 @@ background-position: 21px 21px;
 }
 
 .letter-item:nth-child(2) {
-    background-image: url(../images/living-Room-three.jpg);
+    background-image: url(../images/living-room.png);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(3) {
-    background-image: url(../images/minimalist-Interior-two.jpg);
+    background-image: url(../images/min-two.png);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(4) {
-    background-image: url(../images/living-Room-two.jpg);
+    background-image: url(../images/living-room-two.png);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(5) {
-    background-image: url(../images/living-Room.jpg);
+    background-image: url(../images/kitchen-des.png);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
 
 .letter-item:nth-child(6) {
-    background-image: url(../images/minimalist-Interior.jpg);
+    background-image: url(../images/minimalist.png);
     background-repeat: no-repeat;
 background-position: 21px 21px;
 }
