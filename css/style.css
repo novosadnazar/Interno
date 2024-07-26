@@ -38,6 +38,7 @@ img {
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -711,17 +712,18 @@ margin-left: 474px;
 .footer {
     padding-top: 80px;
     padding-bottom: 80px;
+
 }
+
 
 
 .bax {
     display: flex;
     justify-content: center;
+    gap: 83px;
+    flex-direction: row;
 }
 
-.footer-bax {
-   margin-right: 83px; 
-}
 
 
 .footer-title {
