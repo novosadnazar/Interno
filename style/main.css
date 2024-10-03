@@ -1,0 +1,790 @@
+body {
+  font-family: "Jost";
+}
+
+.container {
+  width: 1240px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+:root {
+  --accent-color: #292F36;
+  --minor-color: #4D5053;
+  --numbers-color: #CDA274;
+  --background-color: #FFFFFF;
+  --site-color: #F4F0EC;
+  --hero-color: #E7E7E7;
+  --interno-color: #E5E5E5;
+}
+
+.header {
+  padding-top: 26px;
+  padding-bottom: 30px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 177px;
+  height: 50px;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: auto;
+}
+
+.header-link {
+  color: var(--accent-color);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.57;
+  letter-spacing: 0.4px;
+}
+
+.header-link:hover, .header-link:focus {
+  color: var(--numbers-color);
+}
+
+.hero {
+  padding-top: 188px;
+  padding-bottom: 260px;
+  background-image: url(../images/hero-fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 0 290px;
+}
+
+.hero-title {
+  width: 595px;
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.22px;
+  margin-bottom: 19px;
+}
+
+.hero-text {
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.hero-desc {
+  color: var(--minor-color);
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 35px;
+}
+
+.hero-btn {
+  color: var(--background-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  background-image: url(../images/hero-btn.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 22px 67px 22px 34px;
+  border-radius: 20px;
+}
+
+.desing {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.desing-list {
+  display: flex;
+}
+
+.design-item {
+  padding-top: 75px;
+  padding-bottom: 70px;
+}
+
+.desing-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.56;
+  letter-spacing: 0.22px;
+}
+
+.desing-desc {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-top: 17px;
+  margin-bottom: 68px;
+  width: 317px;
+  margin-right: 41px;
+  margin-left: 42px;
+}
+
+.design-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.design-link {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.36px;
+}
+
+.desing-link {
+  width: 24px;
+  height: 17px;
+}
+
+.tacle {
+  padding-bottom: 140px;
+}
+
+.pro-box {
+  display: flex;
+}
+
+.tacle-title {
+  width: 450px;
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+  margin-bottom: 42px;
+}
+
+.tacle-text {
+  width: 531px;
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.tacle-desc {
+  width: 492px;
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 40px;
+}
+
+.tacle-bax {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bax {
+  display: flex;
+  flex-direction: column;
+}
+
+.tacle-link {
+  color: var(--minor-color);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-left: 20px;
+}
+
+.tacle-p {
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-left: 20px;
+}
+
+.tacle-btn {
+  color: var(--background-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  border: 0;
+  border-radius: 18px;
+  padding: 21px 67px 23px 34px;
+  letter-spacing: 0.72px;
+  background-image: url(../images/tacle-btn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.tacle-img {
+  border-radius: 0 326px 0 123px;
+  margin-left: auto;
+}
+
+.card {
+  background-color: var(--site-color);
+  padding-top: 103px;
+  padding-bottom: 121px;
+  border-radius: 70px;
+}
+
+.card-item {
+  width: 354px;
+  height: 287px;
+  border-radius: 30px;
+  background: var(--background-color);
+  align-items: center;
+  padding: 50px 75px 45px 35px;
+}
+
+.card-box {
+  margin-left: 20px;
+}
+
+.card-bax {
+  display: flex;
+  align-items: center;
+}
+
+.card-title {
+  width: 479px;
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-paragrah {
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.card-span {
+  width: 285px;
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.22px;
+}
+
+.card-list {
+  display: flex;
+  gap: 18px;
+  margin-top: 47px;
+  justify-content: center;
+}
+
+.card-text {
+  color: var(--minor-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.card-desc {
+  color: var(--minor-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  width: 256px;
+  margin-top: 25px;
+}
+
+.logo {
+  padding-top: 140px;
+  padding-bottom: 113px;
+}
+
+.logo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item:nth-child(1) {
+  margin-right: 125px;
+}
+
+.logo-item:nth-child(2) {
+  margin-right: 110px;
+}
+
+.logo-item:nth-child(3) {
+  margin-right: 89px;
+}
+
+.logo-item:nth-child(4) {
+  margin-right: 112px;
+}
+
+.reccent-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 47px;
+  font-weight: 400;
+  line-height: 1.32;
+  letter-spacing: 0.22px;
+  margin-bottom: 20px;
+}
+
+.reccent-text {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.reccent-desc {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 71px;
+}
+
+.reccent-btn {
+  margin-left: auto;
+}
+
+.reccent-desc {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.room {
+  padding-bottom: 140px;
+}
+
+.room-list {
+  flex-wrap: wrap;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 60px;
+}
+
+.room-item {
+  flex-basis: calc((100% - 20px) / 2);
+}
+
+.room-img {
+  width: 100%;
+}
+
+.room-box {
+  display: flex;
+  padding: 24px 0 60px 0;
+  align-items: center;
+}
+
+.room-title {
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.57;
+  letter-spacing: 0.22px;
+}
+
+.room-desc {
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.figure {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--site-color);
+}
+
+.figure-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.figure-item {
+  width: 288px;
+  height: 195px;
+  border-right: 1px solid var(--numbers-color);
+}
+
+.figure-item:last-child {
+  border-right: 0;
+}
+
+.figure-text {
+  color: var(--numbers-color);
+  font-size: 85px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1.7px;
+  text-align: center;
+}
+
+.figure-desk {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.blogs {
+  padding-top: 143px;
+  padding-bottom: 70px;
+}
+
+.blogs-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.3o;
+  letter-spacing: 0.22px;
+  margin-bottom: 21px;
+}
+
+.blogs-text {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.blogs-desc {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.letter {
+  padding-bottom: 141px;
+}
+
+.letter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.letter-item {
+  width: 387px;
+  height: 515px;
+  border-radius: 62px;
+  border: 1px solid var(--hero-color);
+  background-image: url(../images/kitchen-desing-two.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-item:nth-child(2) {
+  background-image: url(../images/living-room.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-item:nth-child(3) {
+  background-image: url(../images/min-two.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-item:nth-child(4) {
+  background-image: url(../images/living-room-two.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-item:nth-child(5) {
+  background-image: url(../images/kitchen-des.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-item:nth-child(6) {
+  background-image: url(../images/minimalist.png);
+  background-repeat: no-repeat;
+  background-position: 21px 21px;
+}
+
+.letter-btn {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 10px;
+  letter-spacing: 0.22px;
+  border-radius: 8px 8px 8px 0px;
+  background: var(--background-color);
+  margin-top: 244px;
+  margin-left: 45px;
+}
+
+.letter-title {
+  width: 338px;
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0.5px;
+  margin-top: 45px;
+  margin-left: 21px;
+  margin-bottom: 34px;
+}
+
+.letter-box {
+  display: flex;
+  align-items: center;
+}
+
+.letter-text {
+  color: var(--minor-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-right: auto;
+  margin-left: 21px;
+}
+
+.letter-button {
+  margin-right: 22px;
+}
+
+.letter-img {
+  width: 52px;
+}
+
+.wanna {
+  text-align: center;
+  background-color: var(--accent-color);
+  padding-top: 100px;
+  padding-bottom: 95px;
+  border-radius: 70px;
+}
+
+.wanna-title {
+  color: var(--background-color);
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}
+
+.wanna-text {
+  color: var(--background-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 31px;
+}
+
+.wanna-btn {
+  fill: var(--numbers-color);
+  stroke-width: 2px;
+  stroke: var(--numbers-color);
+  filter: drop-shadow(1px 0px 18px rgba(0, 0, 0, 0.2));
+  color: var(--background-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-right: auto;
+}
+
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.bax {
+  display: flex;
+  justify-content: center;
+  gap: 83px;
+  flex-direction: row;
+}
+
+.footer-title {
+  color: var(--accent-color);
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5px;
+  letter-spacing: 0.22px;
+  margin-bottom: 31px;
+}
+
+.list-link {
+  color: var(--minor-color);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-bottom: 30px;
+}
+
+.footer-text {
+  width: 326px;
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+  margin-top: 15px;
+  margin-bottom: 29px;
+}
+
+.footer-box {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-list {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-item {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-link:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
+.footer-item:nth-child(3) {
+  width: 321px;
+}
+
+.line {
+  width: 1440px;
+  height: 1px;
+  background: var(--interno-color);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 111px;
+}
+
+.footer-desc {
+  color: var(--minor-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-top: 35px;
+}
+
+.footer-span {
+  color: var(--numbers-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.22px;
+}/*# sourceMappingURL=main.css.map */

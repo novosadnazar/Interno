@@ -1,0 +1,26 @@
+.logo {
+    padding-top: 140px;
+    padding-bottom: 113px;
+}
+
+.logo-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-item:nth-child(1) {
+margin-right: 125px;
+}
+
+.logo-item:nth-child(2) {
+margin-right: 110px;
+}
+
+.logo-item:nth-child(3) {
+margin-right: 89px;
+}
+
+.logo-item:nth-child(4) {
+margin-right: 112px;
+}

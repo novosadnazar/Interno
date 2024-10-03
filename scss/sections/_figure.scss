@@ -1,0 +1,41 @@
+
+.figure {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--site-color);
+}
+
+.figure-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.figure-item {
+    width: 288px;
+    height: 195px;
+    border-right: 1px solid var(--numbers-color);
+}
+
+.figure-item:last-child {
+border-right: 0;
+}
+
+.figure-text {
+    color: var(--numbers-color);
+font-size: 85px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 1.7px;
+text-align: center;
+}
+
+.figure-desk {
+    color: var(--minor-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+}

@@ -1,0 +1,44 @@
+
+.room {
+    padding-bottom: 140px;
+}
+
+.room-list {
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 20px;
+    row-gap: 60px;
+}
+
+.room-item {
+    flex-basis: calc((100% - 20px) / 2);
+}
+
+.room-img {
+    width: 100%;
+}
+
+.room-box {
+    display: flex;
+    padding: 24px 0 60px 0;
+    align-items: center;
+    
+}
+
+
+.room-title {
+    color: var(--accent-color);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.57;
+    letter-spacing: 0.22px;
+}
+
+.room-desc {
+    color: var(--minor-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+}
