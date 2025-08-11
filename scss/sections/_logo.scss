@@ -1,6 +1,8 @@
 .logo {
     padding-top: 140px;
     padding-bottom: 113px;
+      transform: scale(0);
+    transition: 1s;
 }
 
 .logo-list {

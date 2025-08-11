@@ -1,6 +1,8 @@
 
 .letter {
     padding-bottom: 141px;
+      transform: scale(0);
+    transition: 1s;
 }
 
 .letter-list {

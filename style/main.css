@@ -136,6 +136,8 @@ img {
 .desing {
   padding-top: 100px;
   padding-bottom: 100px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .desing-list {
@@ -194,6 +196,8 @@ img {
 
 .tacle {
   padding-bottom: 140px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .pro-box {
@@ -285,6 +289,8 @@ img {
   padding-top: 103px;
   padding-bottom: 121px;
   border-radius: 70px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .card-item {
@@ -366,6 +372,8 @@ img {
 .logo {
   padding-top: 140px;
   padding-bottom: 113px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .logo-list {
@@ -388,6 +396,11 @@ img {
 
 .logo-item:nth-child(4) {
   margin-right: 112px;
+}
+
+.reccent {
+  transform: scale(0);
+  transition: 1s;
 }
 
 .reccent-title {
@@ -435,6 +448,8 @@ img {
 
 .room {
   padding-bottom: 140px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .room-list {
@@ -480,6 +495,8 @@ img {
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: var(--site-color);
+  transform: scale(0);
+  transition: 1s;
 }
 
 .figure-list {
@@ -520,6 +537,8 @@ img {
 .blogs {
   padding-top: 143px;
   padding-bottom: 70px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .blogs-title {
@@ -553,6 +572,8 @@ img {
 
 .letter {
   padding-bottom: 141px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .letter-list {
@@ -658,6 +679,8 @@ img {
   padding-top: 100px;
   padding-bottom: 95px;
   border-radius: 70px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .wanna-title {
@@ -697,6 +720,8 @@ img {
 .footer {
   padding-top: 80px;
   padding-bottom: 80px;
+  transform: scale(0);
+  transition: 1s;
 }
 
 .bax {
